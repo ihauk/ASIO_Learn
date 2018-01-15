@@ -8,4 +8,4 @@ set(CMAKE_CXX_STANDERED 11)
 add_definitions(-DASIO_STANDALONE)
 include_directories(third/asio/include)
 
-add_executable(demo asio_test.cpp)
+add_executable(demo asio_timer_test.cpp)
